@@ -34,7 +34,6 @@ function getManData() {
 function menu() {
     inquirer.prompt(addMenu).then((menuData) => {
         if (menuData.nextEmployee === 'Add engineer') {
-            
             getEngData()
         }
         if (menuData.nextEmployee === 'Add intern') {
