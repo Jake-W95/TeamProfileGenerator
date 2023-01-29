@@ -6,7 +6,7 @@
     "jest": "^29.4.1"
   },
   "scripts": {
-    "jest": "jest Manager.test.js"
+    "jest": "jest __tests__"
 
 }
 }
