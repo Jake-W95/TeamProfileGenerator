@@ -1,5 +1,12 @@
 {
   "dependencies": {
     "inquirer": "^8.2.5"
-  }
+  },
+  "devDependencies": {
+    "jest": "^29.4.1"
+  },
+  "scripts": {
+    "jest": "jest Manager.test.js"
+
+}
 }
